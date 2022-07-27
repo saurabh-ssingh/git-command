@@ -3,3 +3,9 @@
 
 2: To check current directory is git repo or not  we use ls -a and if any 
    .git folder is found then current directory is git repository.
+
+3: git branch -m main (or the same with -M) only works once you have an initial commit.
+
+Alternatively, before creating any commits, use git checkout -b main to switch the name of the unborn branch to main.
+
+-M is a flag (shortcut) for --move --force per the docs page on git branch. It renames the branch main (since the default branch name for repositories created using the command line is master, while those created in GitHub [starting in Oct. 2020] have a default name of main) and forces it (allows renaming of the branch even if the new branch name already exists).

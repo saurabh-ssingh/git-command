@@ -1,1 +1,20 @@
-=> creae branching
+git branch : List all of the branches in your repository. This is synonymous with git branch --list.
+
+git branch <branch> : Create a new branch called branch. This does not checkout
+                      the new branch.
+
+git branch -d <branch> : Delete the specific branch. This is safe operation in git that prevent 
+                         you from deleting the branch if it has unmerged changes.
+
+
+git branch -D <branch> : Force delete the specified branch, even if it has unmerged changes. 
+                         This is the command to use if you are permanently throw away all of the commits associated with particular line of development.
+
+git branch -m <branch> : Rename the current branch to ＜branch＞.
+
+git branch -a  : List all remote branches. 
+
+git checkout -b <branch_name> : this will create new branch & switch to new branch.
+
+git checkout <branch_name> : switch to another branch i.e.<branch_name>
+
