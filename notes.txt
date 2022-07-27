@@ -1,0 +1,5 @@
+1: After performing git init command we will not see any change in folder, because
+       the .git/folder is hidden default.
+
+2: To check current directory is git repo or not  we use ls -a and if any 
+   .git folder is found then current directory is git repository.
